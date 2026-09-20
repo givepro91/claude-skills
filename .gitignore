@@ -1,0 +1,6 @@
+# claude.ai 가 내려받아 관리하는 스킬 — 앱이 덮어쓴다
+synced/
+# dotfiles 저장소로 가는 심링크 — 정본은 거기에 있다
+agent-browser-routing
+.DS_Store
+__pycache__/
