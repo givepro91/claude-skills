@@ -65,7 +65,7 @@ codex 가 부르는 것은 `image_gen__imagegen({prompt, referenced_image_paths,
 
 그리고 그림 프롬프트 끝에: `TRANSPARENT BACKGROUND — no backdrop, no floor, no shadow, no checkerboard pattern, no border, no text. The glow must fade to full transparency, not to white or black.`
 
-결과: 8-bit RGBA, 생성 기록의 `transparentBackground: true`. 네 귀퉁이 알파 0, 글로우는 알파 1~239 로 부드럽게 빠진다(전체의 24.6%). 남색·풀색·흰 바탕에 얹어도 **테두리 색 번짐이 없다** — 반투명 픽셀의 RGB 가 제 색(주황) 그대로인 스트레이트 알파다. 크로마키(마젠타 바탕 → 코드로 지움)가 글로우에서 남기던 분홍 테두리가 원천적으로 없다.
+성공한 것(불꽃 베기 한 장 기준): 8-bit RGBA, 생성 기록의 `transparentBackground: true`. 네 귀퉁이 알파 0, 글로우는 알파 1~239 로 부드럽게 빠진다(전체의 24.6%). 남색·풀색·흰 바탕에 얹어도 **테두리 색 번짐이 없다** — 반투명 픽셀의 RGB 가 제 색(주황) 그대로인 스트레이트 알파다. 크로마키(마젠타 바탕 → 코드로 지움)가 글로우에서 남기던 분홍 테두리가 원천적으로 없다.
 
 받아 쓸 때 알아 둘 것:
 
